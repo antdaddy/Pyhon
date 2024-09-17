@@ -1,0 +1,2 @@
+Max number: 345
+Min number: 1
