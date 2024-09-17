@@ -4,7 +4,7 @@
 
 import requests
 
-urls = ['https://www.google.com', 'https://www.yahoo.com', 'https://www.bing.com', 'https://www.amazon.com', 'https://www.apple.com', 'https://www.microsoft.com', 'https://www.wikipedia.org', 'https://www.twitter.com', 'https://www.facebook.com', 'https://www.instagram.com']
+urls = ['https://yandex.ru', 'https://vkontakte.ru', 'https://mail.ru', 'https://odnoklassniki.ru', 'https://www.apple.com', 'https://youtube.com', 'https://www.wikipedia.org', 'https://livejournal.com', 'https://https://gismeteo.ru', 'https://kinopoisk.ru']
 
 for url in urls:
     response = requests.get(url)
@@ -15,7 +15,7 @@ for url in urls:
 import requests
 import threading
 
-urls = ['https://www.google.com', 'https://www.yahoo.com', 'https://www.bing.com', 'https://www.amazon.com', 'https://www.apple.com', 'https://www.microsoft.com', 'https://www.wikipedia.org', 'https://www.twitter.com', 'https://www.facebook.com', 'https://www.instagram.com']
+urls = ['https://yandex.ru', 'https://vkontakte.ru', 'https://mail.ru', 'https://odnoklassniki.ru', 'https://www.apple.com', 'https://youtube.com', 'https://www.wikipedia.org', 'https://livejournal.com', 'https://https://gismeteo.ru', 'https://kinopoisk.ru']
 
 def get_content(url):
     response = requests.get(url)
